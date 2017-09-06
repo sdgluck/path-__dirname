@@ -2,6 +2,8 @@
 
 > Get a path in the __dirname
 
+__Note:__ this will not work for modules that are executed indirectly, for example testing engines like Jest.
+
 Unlike the [`resolve-*`](https://github.com/sindresorhus/resolve-cwd) these modules allow resolution of non-module paths. 
 
 ## Install
