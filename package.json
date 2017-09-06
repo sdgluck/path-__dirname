@@ -1,0 +1,31 @@
+{
+  "name": "path-__dirname",
+  "version": "2.0.0",
+  "description": "Get a path in the __dirname",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdgluck/path-__dirname.git"
+  },
+  "keywords": [
+    "resolve",
+    "get",
+    "path",
+    "home",
+    "dir",
+    "user"
+  ],
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdgluck/path-__dirname/issues"
+  },
+  "homepage": "https://github.com/sdgluck/path-__dirname#readme",
+  "dependencies": {
+    "clean-stack": "^1.3.0"
+  }
+}
