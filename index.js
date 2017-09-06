@@ -1,7 +1,7 @@
 const _path = require('path')
 const cleanStack = require('clean-stack')
 
-const PATH_RE = /\n.*\n.*\((.+?)(?:\:(\d+))?(?:\:(\d+))\)/
+const PATH_RE = /\n.*\n.*\((.+?)(?:\:(\d+))(?:\:(\d+))\)/
 const stack = cleanStack(new Error().stack)
 const dirname = _path.dirname(PATH_RE.exec(stack)[1])
 
