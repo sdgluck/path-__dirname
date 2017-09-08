@@ -1,6 +1,6 @@
 {
   "name": "path-__dirname",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Get a path in the __dirname",
   "main": "index.js",
   "scripts": {
